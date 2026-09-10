@@ -1,16 +1,29 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+
+
 import './App.css'
+import TopSideBar from './components/TopSidebar'
+import SideBar from './components/Sidebar'
+import TopBar from './components/Topbar'
+import Hero from './components/Body'
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
-    <p className='bg-blue-500'>tailwind is working</p>
-    <One/>
+    <div className='flex flex-row'>
+          <div className='flex flex-col w-75'>
+    <TopSideBar/>
+    <SideBar/>
+    </div>
+      <div className='flex flex-col border-blue-500 border-2 h-screen w-screen justify-between'>
+      <TopBar/>
+      <Hero/>
+     </div>
+    </div>
+    
     </>
   )
 }
