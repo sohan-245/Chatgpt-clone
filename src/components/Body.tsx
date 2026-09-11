@@ -4,9 +4,9 @@ function Hero(){
     return(
         <>
        <div className="flex-1 flex flex-col justify-center items-center border-2 border-amber-300">
-        <div>What are you doing today??</div>
+        <div>Where should we begin??</div>
         <SearchBox/>
-        <div>Recommendations</div>
+        <div>What can you do?</div>
        </div>
         </>
     )
