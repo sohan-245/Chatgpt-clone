@@ -1,12 +1,12 @@
 function SearchBox(){
     return(
         <>
-        <div className="flex flex-row space-between border-2 m-5 p-5">
-        <div>icon 1</div>
-        <div className="border-2 w-100"><input type="text" /></div>
-        <div className="flex flex-row gap-3 m-1">
-        <div>icon 2</div>
-        <div>icon 3</div>
+        <div className="flex flex-row space-between border-2 m-6 p-1 items-center rounded-4xl w-200 border-gray-300">
+        <img src="./plus.png"/>
+        <div className=" w-170"><input type="text" placeholder="Ask ChatGpt" /></div>
+        <div className="flex flex-row gap-3 m-1 items-center">
+        <img src="./mic.png" alt="" style={{height:"20px"}} />
+        <img src="./voice.png" alt="" style={{height:"30px", width:"30px"}} />
         </div>
         </div>
         </>

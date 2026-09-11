@@ -14,11 +14,11 @@ function App() {
   return (
     <>
     <div className='flex flex-row'>
-          <div className='flex flex-col w-75'>
+          <div className='flex flex-col w-80 border-2 border-gray-200'>
     <TopSideBar/>
     <SideBar/>
     </div>
-      <div className='flex flex-col border-blue-500 border-2 h-screen w-screen justify-between'>
+      <div className='flex flex-col h-screen w-screen justify-between'>
       <TopBar/>
       <Hero/>
      </div>
