@@ -1,5 +1,5 @@
 
-function TopSideBar(){
+function Homepage(){
     return(
         <>
         <div className="flex flex-row">
@@ -8,4 +8,4 @@ function TopSideBar(){
         </>
     )
 }
-export default TopSideBar
+export default Homepage

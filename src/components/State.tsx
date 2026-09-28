@@ -8,7 +8,7 @@ function State(){
     console.log(open)
     return(
         <div>
-            <div className="flex flex-row gap-10 w-50 items-center m-4 justify-between">
+            <div className="flex flex-row gap-10 w-45 items-center m-4 justify-between">
             <TopSideBar/>
             <button onClick={()=>{setOpen(!open)}}><img src="/sidebaricon.png" style={{width:"45px",height:"30px"}}/></button>  
             </div>

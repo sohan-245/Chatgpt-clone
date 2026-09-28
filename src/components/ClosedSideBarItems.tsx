@@ -1,10 +1,12 @@
 type ImageProps={
     img:string;
+    w:string;
+    h:string;
 }
-function Closed({img}:ImageProps){
+function Closed({img,w,h}:ImageProps){
     return(
         <>
-        <img src={img} style={{width:"25px",height:"25px"}}/>
+        <img src={img} style={{width:w, height:h}}/>
         </>
     )
 }
