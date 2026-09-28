@@ -4,20 +4,27 @@ import './App.css'
 // import TopBar from './components/Topbar'
 // import Hero from './components/Body'
 // import State from './components/State'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Homepage from './pages/Homepage';
+import Loginpage from './pages/Loginpage';
 
 function App() {
  
    return(
+      <>
       <BrowserRouter>
 
       <Routes>
          <Route path="/"element={<Homepage/>}/>
+         <Route path="/login"element={<Loginpage/>}/>
       </Routes>
       </BrowserRouter>
-   );
-}
+      </>
+   )
+};
+
+export default App;
+
 //  return(
 //   <>
 //   <State/>
@@ -43,4 +50,3 @@ function App() {
 
 
 
-export default App
