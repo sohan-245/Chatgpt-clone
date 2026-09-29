@@ -3,7 +3,7 @@ function Loginpage(){
     return(
         <>
        <div className="flex justify-center items-center h-screen w-screen">
-        <div className="flex flex-col border border-gray p-8 m-5 gap-5 rounded-2xl">
+        <div className="flex flex-col border border-gray p-10 m-8 gap-5 rounded-2xl">
             <strong className="mx-auto">Enter your details</strong>
         <div>
             <strong>Name:</strong><br/>
